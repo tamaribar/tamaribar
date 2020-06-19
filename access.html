@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>たまりBAR</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="たまりBAR　場所">
+<meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/openclose.js"></script>
+<script src="js/fixmenu_pagetop.js"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div id="container">
+
+<header>
+<h1 id="logo"><a href="index.html"><img src="base/たまりBAR2.png" alt="たまりBAR"></a></h1>
+</header>
+
+<!--PC用（801px以上端末）メニュー-->
+<nav id="menubar">
+<ul>
+<li><a href="about.html">たまりBAR</a></li>
+<li><a href="menu.html">メニュー</a></li>
+<li class="current"><a href="access.html">場所</a></li>
+</ul>
+</nav>
+<!--小さな端末用（800px以下端末）メニュー-->
+<nav id="menubar-s">
+<ul>
+<li><a href="index.html">トップ</a></li>
+<li><a href="about.html">たまりBAR</a></li>
+<li><a href="menu.html">メニュー</a></li>
+<li class="current"><a href="access.html">ACCESS</a></li>
+</ul>
+</nav>
+
+<div id="contents">
+
+<section>
+
+<h2>場所</h2>
+
+<table class="ta1">
+<caption>たまりBAR　場所</caption>
+<tr>
+<th>所在地</th>
+<td>長野県中野市xx-xx-x</td>
+</tr>
+<tr>
+<th>TEL</th>
+<td>携帯:090-xxxx-xxxx</td>
+</tr>
+<tr>
+<th>MAP</th>
+
+<td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d799.2632728931796!2d138.36777452921712!3d36.74529669874749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601d8afb4873e02d%3A0x1b8b5372012be3a7!2z44CSMzgzLTAwMjIg6ZW36YeO55yM5Lit6YeO5biC5Lit5aSu77yR5LiB55uu77yR4oiS77yR77yR!5e0!3m2!1sja!2sjp!4v1592197729727!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+</tr>
+<tr>
+<th>たまりBAR</th>
+<td>お気軽にお入りください。</td>
+</tr>
+</table>
+
+</section>
+
+</div>
+<!--/contents-->
+
+<footer>
+<small>Copyright&copy; <a href="index.html">たまりBAR</a> All Rights Reserved.</small>
+<span class="pr">《<a href="https://template-party.com/" target="_blank">Web Design:Template-Party</a>》</span>
+</footer>
+
+</div>
+<!--/container-->
+
+<p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+
+<!--メニュー開閉ボタン-->
+<div id="menubar_hdr" class="close"></div>
+<!--メニューの開閉処理条件設定　800px以下-->
+<script>
+if (OCwindowWidth() <= 800) {
+	open_close("menubar_hdr", "menubar-s");
+}
+</script>
+
+</body>
+</html>
